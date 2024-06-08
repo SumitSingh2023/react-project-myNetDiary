@@ -13,21 +13,21 @@ const BackgroundBox = () => {
   return (
     <Box>
       <Flex
-        bg="#23a55b"
+        bg= '#05963d url(https://assets.mynetdiary.com/images/texture-noise@1x.png) 0 0 repeat'
         justify="space-between"
         h={{ sm: "", md: "90vh" }}
         color="white"
         p="2rem 0"
       >
-        <Box px="1rem" w="30%">
-          <Image
+        <Box px="1rem" w="30%" marginLeft={8}>
+          <Image  marginLeft={-12}
             transform={{ sm: "scale(0.6)", md: "scale(0.8)", lg: "" }}
             src={`https://s3.amazonaws.com/img.mynetdiary.com/images/bg-start-left@1x.png`}
           />
           <Heading as="h2" size={{ sm: "2xl", lg: "4xl" }} py="0.5rem">
             Be Healthy for Life!
           </Heading>
-          <Heading as="h5" size={{ md: "md", lg: "lg" }} mt={4}>
+          <Heading as="h6" size={{ md: "md", lg: "lg" }} mt={4} color='#FCF8B3' fontFamily='inherit'>
             Your weight loss, diet, and nutrition assistant.
           </Heading>
           <Box mt={6} size={{ md: "md" }}>

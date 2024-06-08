@@ -13,15 +13,18 @@ export default function Dropdowns({ items = [], title }) {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
-    <Menu isOpen={isOpen}>
+    <Menu isOpen={isOpen} >
       <MenuButton
         onMouseEnter={onOpen}
         onMouseLeave={onClose}
-        borderRadius="none"
+        borderRadius={5}
+        padding={2}
+        marginTop={5}
+        fontWeight='500'
         _hover={{ bg: "white", color: "orange" }}
-        _expanded={{ bg: "white", color: "orange" }}
+        _expanded={{ bg: "white", color: "orange"}}
       >
-        <Text fontSize={{md: '1rem', xl: '1.2rem'}}>{title}</Text>
+        <Text fontSize={{md: '1.1rem', xl: '1.3rem'}}>{title}</Text>
       </MenuButton>
       <MenuList
         className="drop"
@@ -31,7 +34,7 @@ export default function Dropdowns({ items = [], title }) {
       >
         {items?.map((e, index) => {
           return (
-            <MenuItem key={index + 1} _hover={{ bg: "orange", color: "white" }}>
+            <MenuItem key={index + 1} _hover={{ bg: "orange", color: "white",fontWeight:'600' }}>
               <Link to={e.links}>{e.elem}</Link>
             </MenuItem>
           );
