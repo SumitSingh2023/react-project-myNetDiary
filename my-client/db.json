@@ -1,0 +1,58 @@
+{
+  "signupUsers": [
+    {
+      "username": "Rashmika",
+      "email": "rashmika@gmail.com",
+      "password": "Rashmi#12155413",
+      "weights": {
+        "actualWeight": "190",
+        "targetWeight": "160",
+        "goal": "Lose 1½ lb/week"
+      },
+      "abouts": {
+        "gender": "Female",
+        "height": "5 foot 6 inch",
+        "year": "1996",
+        "month": "09",
+        "day": "10"
+      },
+      "id": 1
+    },
+    {
+      "username": "Isha",
+      "email": "isha@gmail.com",
+      "password": "Isha@119912",
+      "weights": {
+        "actualWeight": "180",
+        "targetWeight": "218",
+        "goal": "Gain ⅛ kg/week"
+      },
+      "abouts": {
+        "gender": "Female",
+        "height": "5 foot 2 inch",
+        "year": "1996",
+        "month": "06",
+        "day": "25"
+      },
+      "id": 2
+    },
+    {
+      "username": "Raaj aryan",
+      "email": "raaj@gmail.com",
+      "password": "Raaj@123456",
+      "weights": {
+        "actualWeight": "170",
+        "targetWeight": "148",
+        "goal": "Lose 1½ lb/week"
+      },
+      "abouts": {
+        "gender": "Male",
+        "height": "5 foot 11 inch",
+        "year": "1992",
+        "month": "09",
+        "day": "11"
+      },
+      "id": 3
+    }
+  ]
+}

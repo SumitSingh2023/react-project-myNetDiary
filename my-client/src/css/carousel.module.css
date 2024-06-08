@@ -1,0 +1,46 @@
+.corouselSlider{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+    margin:4rem auto;
+}
+
+.infoBox{
+    color:white;
+    font-weight:600;
+}
+
+.infoBox, .infoBox>div{
+    text-align: left;
+}
+
+.infoBox>h1{
+    font-size: 85px;
+}
+
+.infoBox>h3,.infoBox>h5{
+    margin: 2rem 0 0 0;
+}
+
+.infoBox>h3,.infoBox>h5{
+    font-size: 30px;
+}
+
+.infoBox>h5{
+    font-size: 25px;
+}
+
+.infoBox>div{
+    font-size: 25px;
+    margin-top: 4rem;
+}
+
+.imgBox{
+    height: 100vh;
+}
+
+.avatar{
+    height: 100vh;
+    object-fit: cover;
+} 
